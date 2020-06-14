@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvc_cache:war">
+    <output-path>$PROJECT_DIR$/mvc_cache/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mvc_cache</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cache.war">
+      <element id="artifact" artifact-name="mvc_cache:war exploded" />
+    </root>
+  </artifact>
+</component>
